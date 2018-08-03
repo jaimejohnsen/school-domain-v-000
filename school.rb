@@ -9,7 +9,7 @@ def initialize(name)
 end
 
 def add_student(name, grade)
-  if @roster[grade] #if the roster has a key of that grade this line will return that key's value
+  if @roster[grade] #if the roster has a key of grade this line will return that key's value
 
   @roster[grade] << name #the key exists and we add/shovel the value of name
 
